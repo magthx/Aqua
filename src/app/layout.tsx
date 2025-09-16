@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -12,9 +11,19 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Aqua Simple Weather App",
-  description: "A simple weather app with NextJs",
+export const metadata = {
+  title: "Aqua | Clima en tiempo real | Pronóstico de clima",
+  description:
+    "Consulta el clima actual y el pronóstico de los próximos días de forma rápida y responsiva.",
+  keywords: ["clima", "weather app", "pronóstico", "tiempo"],
+  authors: [{ name: "Dylan Magallón" }],
+  openGraph: {
+    title: "Aqua - Tu clima en tiempo real",
+    description: "Consulta el clima actual y el pronóstico fácilmente.",
+    siteName: "Aqua",
+    locale: "es_ES",
+    type: "website",
+  },
 };
 
 export default function RootLayout({

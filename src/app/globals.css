@@ -1,13 +1,8 @@
 @import "tailwindcss";
-
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
-html {
-  overflow: hidden;
-}
-
 body {
   background: linear-gradient(to right, #bfdbfe, #3b82f6);
   color: var(--foreground);
