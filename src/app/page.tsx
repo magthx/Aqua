@@ -1,9 +1,10 @@
-// import WeatherCard from "../../components/WeatherCard"
+import WeatherCard from "../../components/WeatherCard"
 import Header from "../../components/Header"
-export default function Home () {
+export default function Home() {
   return (
     <>
-    <Header></Header>
+      <Header />
+      <WeatherCard />
     </>
   )
 }
