@@ -33,7 +33,7 @@ export default function Header() {
             </li>
 
             <li>
-              <a href="https://www.linkedin.com/in/dylan-magall%C3%B3n-565bb5326/" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full bg-gray-100 flex items-center justify-center text-gray-800 
+              <a href="mailto:dylanmagallon22@gmail.com" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full bg-gray-100 flex items-center justify-center text-gray-800 
                hover:bg-blue-500 hover:text-white transition-colors duration-300">
                 <FaEnvelope className="w-5 h-5" />
               </a>
